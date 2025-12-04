@@ -16,7 +16,7 @@ which was derived by us from <br><br>
 <br><br>
 
 <hr>
-<b>Actual Image Segmentation for the Shanghai-Road Images of 512x512 pixels</b><br>
+<b>Actual Image Segmentation for the Shanghai Road Images of 512x512 pixels</b><br>
 As shown below, the inferred masks predicted by our segmentation model trained on the 
 our dataset appear similar to the ground truth masks, but they lack precision in certain areas.<br>
 <table>
@@ -46,7 +46,7 @@ our dataset appear similar to the ground truth masks, but they lack precision in
 <h3>
 1 Dataset Citation
 </h3>
-The datase used here was derived from <br><br>
+The dataset used here was derived from <br><br>
 <a href="https://www.kaggle.com/datasets/harshilsanganiii/r-shanghai">
 <b>shanghai satellite images for CNN model training</b>
 </a> on the kaggle web site.
@@ -289,12 +289,11 @@ python ../../../src/TensorFlowFlexUNetInferencer.py ./train_eval_infer.config
 <img src="./projects/TensorFlowFlexUNet/Shanghai-Road/asset/mini_test_output.png" width="1024" height="auto"><br>
 <br>
 <hr>
-<b>Enlarged images and masks for the Shanghai-Road Images </b><br>
+<b>Enlarged images and masks for the Shanghai Road Images of 512x512 pixels </b><br>
 As shown below, the inferred masks predicted by our segmentation model trained on the 
 augmented dataset appear similar to the ground truth masks, but they lack precision in certain areas.<br>
 <table>
 <tr>
-
 <th>Image</th>
 <th>Mask (ground_truth)</th>
 <th>Inferred-mask</th>
@@ -331,7 +330,6 @@ augmented dataset appear similar to the ground truth masks, but they lack precis
 <td><img src="./projects/TensorFlowFlexUNet/Shanghai-Road/mini_test/masks/10867.png" width="320" height="auto"></td>
 <td><img src="./projects/TensorFlowFlexUNet/Shanghai-Road/mini_test_output/10867.png" width="320" height="auto"></td>
 </tr>
-
 
 </table>
 <hr>
